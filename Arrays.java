@@ -34,22 +34,70 @@
 //     }
 // }
 
-//3. Find the largest element in an array
+//3.average
 // import java.util.Scanner;
 // public class Arrays {
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
 //         int n = sc.nextInt();
-//         int[] arr = new int[n];
-//         for(int i = 0; i < n; i++) {
+//         int arr[] = new int[n];
+//         int sum =0;
+//         int count =0;
+//         for(int i=0;i<n;i++){
 //             arr[i] = sc.nextInt();
 //         }
-//         int largest = arr[0];
-//         for(int i = 1; i < n; i++) {
-//             if(arr[i] > largest) {
-//                 largest = arr[i];
-//             }
+//         for(int i=1;i<=n;i++){
+//             sum = sum +i;
+//             count ++;
 //         }
-//         System.out.println("Largest element in the array: " + largest);
+//         int avg = sum/count;
+//         System.out.println(avg);
+//     }
+// }
+
+//largest number in array                              
+// import java.util.Scanner;
+// public class Arrays{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+//         int arr[] = new int[n];
+//         for(int i=0;i<n;i++){
+//             arr[i] = sc.nextInt();
+//         }
+//         int max = arr[0];
+//         for(int i=1;i<n;i++){
+//             if(arr[i]>max){
+//                 int temp = arr[i];
+//                 arr[i] = max;
+//              max = temp;
+//         }
+//     }
+//     System.out.println(max);
+//     }
+// }
+
+//smallest number in array
+// import java.util.Scanner;
+// public class Arrays{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+//         int arr[] = new int[n];
+//         for(int i=0;i<n;i++){
+//             arr[i] = sc.nextInt();
+//         }
+//         int min = arr[0];
+//         int minIndex = 0;
+//         for(int i=0;i<n;i++){
+//             if(arr[i]<min){
+//                 int temp = arr[i];
+//                 arr[i] = min;
+//              min = temp;
+//              minIndex = i;
+//         }
+//     }
+//     System.out.println(min);
+//     System.out.println(minIndex);
 //     }
 // }
