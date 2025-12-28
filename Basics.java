@@ -486,7 +486,23 @@
 //     }
 // }
 
-
+//Sum of Squares of Digits-2
+// import java.util.Scanner;
+// public class Basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int sum=0;
+//         int rem;
+//         while(a!=0){
+//             rem = a%10;
+//             int sqr = rem*rem;
+//             sum = sum+sqr;
+//             a = a/10;
+//         }
+//         System.out.println(sum);
+//     }
+// }
 
 
 
