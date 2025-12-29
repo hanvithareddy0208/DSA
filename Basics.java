@@ -486,7 +486,7 @@
 //     }
 // }
 
-//Sum of Squares of Digits-2
+//28.Sum of Squares of Digits-2
 // import java.util.Scanner;
 // public class Basics{
 //     public static void main(String[] args) {
