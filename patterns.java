@@ -36,4 +36,25 @@
 //     }
 // }
 
-//3.
+//3.Star Pyramid Pattern
+// import java.util.Scanner;
+// public class patterns {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+//         if (n == 0) {
+//             System.out.print("NULL");
+//             return;
+//         }
+//         for (int i = 1; i <= n; i++) {
+//             for (int j = 1; j <= i; j++) {
+//                 if (j == i)
+//                     System.out.print("*");
+//                 else
+//                     System.out.print("* ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
