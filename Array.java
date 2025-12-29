@@ -242,3 +242,6 @@
 //         System.out.println(sum);
 //     }
 // }
+
+//12.occurences of 
+import java.util.Scanner;
