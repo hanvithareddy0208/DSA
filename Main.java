@@ -505,6 +505,17 @@
 // }
 
 
-
-
-
+//29.Area of Rectangle
+// import java.util.Scanner;
+// import java.math.BigDecimal;
+// import java.math.RoundingMode;
+// public class Main {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         BigDecimal l = sc.nextBigDecimal();
+//         BigDecimal b = sc.nextBigDecimal();
+//         BigDecimal area = l.multiply(b)
+//                            .setScale(5, RoundingMode.DOWN);
+//         System.out.println(area);
+//     }
+// }
